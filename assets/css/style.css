@@ -372,9 +372,9 @@ body.dark #moon{
 }
 .hero-image img{
     position: absolute;
-    right: 250px;
+    right: 150px;
     bottom: 0;
-    width: 350px;
+    width: 450px;
 }
 .clients{
     font-size: 15px;
@@ -396,7 +396,7 @@ body.dark #moon{
     font-size: 15px;
     position: absolute;
     right: 100px;
-    bottom: 320px;
+    bottom: 390px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -486,7 +486,7 @@ body.dark #moon{
     }
     .experience{
         right: 20px;
-        top: 350px;
+        top: 250px;
     }
 }
 
@@ -546,7 +546,7 @@ body.dark #moon{
     }
     .hero-image img{
         right: 20px;
-        width: 250px;
+        width: 300px;
     }
     .circle img{
         width: 380px;
@@ -560,7 +560,7 @@ body.dark #moon{
         margin-right: 20px;
     }
     .experience{
-        top: 350px;
+        top: 250px;
     }
 }
 
