@@ -1,388 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-   <!-- ===== MODAL BOX ===== -->
-     
-   <div class="modal" id="myModal">
-       <div class="modal-content">
-           <span class="close"><i class="fa fa-times"></i></span>
-           <div class="content-title">
-               <span>Lead Generation & Prospecting</span>
-           </div>
-           <div class="skills-box">
-               <span class="skills-label">SignalHire</span>
-               <span class="skills-label">Lusha</span>
-               <span class="skills-label">RockerReach</span>
-               <span class="skills-label">Apollo</span>
-           </div>
-           <div class="content-title">
-               <span>CRM & Marketing Automation</span>
-           </div>
-           <div class="skills-box">
-               <span class="skills-label">Zoho CRM</span>
-               <span class="skills-label">HubSpot</span>
-               <span class="skills-label">Mailchimp</span>
-           </div>
-           <div class="content-title">
-               <span>Project Management & Collaboration</span>
-           </div>
-           <div class="skills-box">
-               <span class="skills-label">Asana</span>
-               <span class="skills-label">Microsoft Project</span>
-               <span class="skills-label">Microsoft Teams</span>
-           </div>
-           <div class="content-title">
-               <span>Email Marketing & Campaigns</span>
-           </div>
-           <div class="skills-box">
-               <span class="skills-label">Email Marketing (general)</span>
-               <span class="skills-label">HubSpot</span>
-               <span class="skills-label">Mailchimp</span>
-           </div>
-           <div class="content-title">
-               <span>Communication</span>
-           </div>
-           <div class="skills-box">
-               <span class="skills-label">VOIP</span>
-               <span class="skills-label">SIP</span>
-           </div>
-       </div>
-   </div>
-
-   <div class="modal" id="myModal1">
-    <div class="modal-content">
-        <span class="close"><i class="fa fa-times"></i></span>
-        <div class="content-title">
-            <span>Stakeholder Engagement</span>
-        </div>
-        <div class="desc_content">
-            <!-- <p>I work together with my team to offer best services in:</p> -->
-            <ul class="services_list">
-                <li>Built strong international client relationships through clear communication and effective stakeholder management.</li>
-                <!-- <li>Web Design</li>
-                <li>Web Hosting</li>
-                <li>Software Development</li> -->
-            </ul>
-        </div>
-        <div class="content-title">
-            <span>Training & Education</span>
-        </div>
-        <div class="desc_content">
-            <!-- <p>I work together with my team to offer best services in:</p> -->
-            <ul class="services_list">
-                <li>Conducted impactful training sessions at Space India to support team growth and client onboarding.</li>
-                <!-- <li>Web Design</li>
-                <li>Web Hosting</li>
-                <li>Software Development</li> -->
-            </ul>
-        </div>
-        <div class="content-title">
-            <span>Client Relationships & Presentations</span>
-        </div>
-        <div class="desc_content">
-            <!-- <p>I work together with my team to offer best services in:</p> -->
-            <ul class="services_list">
-                <li>Managed client relationships and delivered proposals aligned with business goals and client expectations.</li>
-                <!-- <li>Web Design</li>
-                <li>Web Hosting</li>
-                <li>Software Development</li> -->
-            </ul>
-        </div>
-        <div class="content-title">
-            <span>Client Meetings & Approach</span>
-        </div>
-        <div class="desc_content">
-            <!-- <p>I work together with my team to offer best services in:</p> -->
-            <ul class="services_list">
-                <li>Led meetings across global markets, providing tailored, results-oriented solutions based on client needs.</li>
-                <!-- <li>Web Design</li>
-                <li>Web Hosting</li>
-                <li>Software Development</li> -->
-            </ul>
-        </div>
-        <div class="content-title">
-            <span>Lead Generation & Prospecting (Apollo)</span>
-        </div>
-        <div class="desc_content">
-            <!-- <p>I work together with my team to offer best services in:</p> -->
-            <ul class="services_list">
-                <li>Used Apollo for targeted lead generation and email campaigns, increasing engagement and qualified leads.</li>
-                <!-- <li>Web Design</li>
-                <li>Web Hosting</li>
-                <li>Software Development</li> -->
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>Madhu-Folio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">Mad<span>-</span>Folio</a></div>
+    </nav>
+    <header>
+      <div class="section__container header__container">
+        <!-- <div class="">
+          <img src="assets/madhu2.png" alt="about" />
+        </div> -->
+        <p><span>Hello</span> I'm</p>
+        <h1>Madhumitha Ravinder</h1>
+        <h2 class="section__title">Project/Business<span> Management Executive.</span></h2>
+        <p>
+          I’m a business development and project management professional with a year of experience 
+          in BFSI, IT, accessibility, and education sector. I’m good at handling projects, 
+          working with tools like CRM, Apollo, and Asana, and making sure everything 
+          runs smoothly and meets business goals.
+        </p>
+        <div class="action__btns">
+          <a href="assets/resume_madhumitha.pdf" download class="btn">Download CV</a>
+          <!-- <button class="btn">Download CV</button> -->
+          <!-- <a href="#" class="video">
+            <div class="play">
+              <i class="ri-play-fill"></i>
+            </div>
+            <span>Watch My Video</span>
+          </a> -->
         </div>
       </div>
-   </div>
-
-   <div class="modal" id="myModal2">
-    <div class="modal-content">
-        <span class="close"><i class="fa fa-times"></i></span>
-        <div class="content-title">
-            <span>About Me</span>
+    </header>
+    <section class="about">
+      <div class="section__container about__container">
+        <div class="about__image">
+          <img src="assets/madhu2.png" alt="about" />
         </div>
-         <p>I’m a Business Development and Project Management professional who builds strong client relationships across the US, UK, Europe, and Canada. 
-            I focus on clear communication and delivering solutions that meet client needs. I have experience leading client meetings and presentations in these regions, helping businesses grow and succeed.
-            Skilled in using tools like Apollo, Zoho CRM, and Asana, I manage prospects and projects efficiently while driving effective campaigns. I also support teams through
-            training and onboarding to ensure everyone is set up for success.</p>
-    </div>
-</div>
+        <div class="about__content">
+          <h2 class="section__title">About <span>Me</span></h2>
+          <p class="section__subtitle">Project/Business Management Executive</p>
+          <p class="about__details">
+            I’m a Business Development and Project Management professional who builds strong 
+            client relationships across the US, UK, Europe, and Canada. 
+            I focus on clear communication and delivering solutions that meet client needs. 
+            I have experience leading client meetings and presentations in these regions, 
+            helping businesses grow and succeed. Skilled in using tools like Apollo, 
+            Zoho CRM, and Asana, I manage prospects and projects efficiently while 
+            driving effective campaigns. I also support teams through training and 
+            onboarding to ensure everyone is set up for success.
+          </p>
+          <!-- <button class="btn">More About</button> -->
+        </div>
+      </div>
+    </section>
 
+    <section class="service">
+      <div class="section__container service__container">
+        <p class="section__subtitle">What I’m Good At!</p>
+        <h2 class="section__title"><span>My</span> Skills</h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>Lead Generation & Prospecting</h4>
+            <p>* SignalHire</p>
+            <p>* Lusha</p>
+            <p>* RockerReach</p>
+            <p>* Apollo</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>CRM & Marketing Automation</h4>
+            <p>* Zoho CRM</p>
+            <p>* HubSpot</p>
+            <p>* Mailchimp</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>Project Management & Collaboration</h4>
+            <p>* Asana</p>
+            <p>* Microsoft Project</p>
+            <p>* Microsoft Teams</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>Email Marketing & Campaigns</h4>
+            <p>* Email Marketing (general)</p>
+            <p>* HubSpot</p>
+            <p>* Mailchimp</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-edit-2-line"></i>
+            <h4>Communication</h4>
+            <p>* VOIP</p>
+            <p>* SIP Project</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="project">
+      <div class="section__container project__container">
+        <p class="section__subtitle">Certifications</p>
+        <h2 class="section__title"><span>Professional</span> Certifications</h2>
+        <div class="project__grid">
+          <div class="project__card">
+            <img src="assets/certificate-2.jpg" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/certificate-3.jpg" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/certificate-4.jpg" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/certificate-1.jpg" alt="project" />
+          </div>
+          <!-- <div class="project__card">
+            <img src="assets/project-5.png" alt="project" />
+          </div>
+          <div class="project__card">
+            <img src="assets/project-6.png" alt="project" />
+          </div> -->
+        </div>
+      </div>
+    </section>
 
-   <!-- ===== END OF  MODAL BOX ===== -->
+    <section class="service">
+      <div class="section__container service__container">
+        <p class="section__subtitle">Key Achievements</p>
+        <h2 class="section__title"><span>My</span> Works</h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <i class="ri-lightbulb-flash-line"></i>
+            <h4>Stakeholder Engagement</h4>
+            <p>Built strong international client relationships through 
+              clear communication and effective stakeholder management.</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-lightbulb-flash-line"></i>
+            <h4>Training & Education</h4>
+            <p>Conducted impactful training sessions at Space India 
+              to support team growth and client onboarding.</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-lightbulb-flash-line"></i>
+            <h4>Client Relationships & Presentations</h4>
+            <p>Managed client relationships and delivered proposals 
+              aligned with business goals and client expectations</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-lightbulb-flash-line"></i>
+            <h4>Client Meetings & Approach</h4>
+            <p>Led meetings across global markets, providing tailored, 
+              results-oriented solutions based on client needs</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+          <div class="service__card">
+            <i class="ri-lightbulb-flash-line"></i>
+            <h4>Lead Generation & Prospecting (Apollo)</h4>
+            <p>Used Apollo for targeted lead generation and email campaigns, 
+              increasing engagement and qualified leads</p>
+            <!-- <a href="#" class="read__more">Read more...</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-   <!-- ===== WRAPPER ===== -->
-    <div class="wrapper">
-        <!-- ===== NAVIGATION BAR ===== -->
-        <nav class="nav">
-            <div class="nav_logo">
-                <span>Madhumitha Ravinder</span>
-            </div>
-            <div class="right_nav">
-                <div class="nav_menu" id="navMenu">
-                    <ul class="link_list">
-                        <div class="close-menu">
-                            <i class="fa fa-times" onclick="menuClose()"></i>
-                        </div>
-                        <li class="list">
-                            <a href="#" class="link">Home</a>
-                        </li>
-                        <li class="list">
-                            <a href="#myModal" class="link" id="myBtn">Skills <i class="fa-solid fa-caret-down"></i></a>
-                            <div class="description_box">
-                                <div class="link_description" id="myDescription">
-                                    <div class="content-title">
-                                        <span>Lead Generation & Prospecting</span>
-                                    </div>
-                                    <div class="skills-box">
-                                        <span class="skills-label">SignalHire</span>
-                                        <span class="skills-label">Lusha</span>
-                                        <span class="skills-label">RockerReach</span>
-                                        <span class="skills-label">Apollo</span>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>CRM & Marketing Automation</span>
-                                    </div>
-                                    <div class="skills-box">
-                                        <span class="skills-label">Zoho CRM</span>
-                                        <span class="skills-label">HubSpot</span>
-                                        <span class="skills-label">Mailchimp</span>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>Project Management & Collaboration</span>
-                                    </div>
-                                    <div class="skills-box">
-                                        <span class="skills-label">Asana</span>
-                                        <span class="skills-label">Microsoft Project</span>
-                                        <span class="skills-label">Microsoft Teams</span>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>Email Marketing & Campaigns</span>
-                                    </div>
-                                    <div class="skills-box">
-                                        <span class="skills-label">Email Marketing (general)</span>
-                                        <span class="skills-label">HubSpot</span>
-                                        <span class="skills-label">Mailchimp</span>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>Communication</span>
-                                    </div>
-                                    <div class="skills-box">
-                                        <span class="skills-label">VOIP</span>
-                                        <span class="skills-label">SIP</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list">
-                            <a href="#myModal1" class="link" id="myBtn">Key Achievements <i class="fa-solid fa-caret-down"></i></a>
-                            <div class="description_box">
-                                <div class="link_description" id="myDescription">
-                                    <div class="content-title">
-                                        <span>Stakeholder Engagement</span>
-                                    </div>
-                                    <div class="desc_content">
-                                        <!-- <p>I work together with my team to offer best services in:</p> -->
-                                        <ul class="services_list">
-                                            <li>Built strong international client relationships through clear communication and effective stakeholder management.</li>
-                                            <!-- <li>Web Design</li>
-                                            <li>Web Hosting</li>
-                                            <li>Software Development</li> -->
-                                        </ul>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>Training & Education</span>
-                                    </div>
-                                    <div class="desc_content">
-                                        <!-- <p>I work together with my team to offer best services in:</p> -->
-                                        <ul class="services_list">
-                                            <li>Conducted impactful training sessions at Space India to support team growth and client onboarding.</li>
-                                            <!-- <li>Web Design</li>
-                                            <li>Web Hosting</li>
-                                            <li>Software Development</li> -->
-                                        </ul>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>Client Relationships & Presentations</span>
-                                    </div>
-                                    <div class="desc_content">
-                                        <!-- <p>I work together with my team to offer best services in:</p> -->
-                                        <ul class="services_list">
-                                            <li>Managed client relationships and delivered proposals aligned with business goals and client expectations.</li>
-                                            <!-- <li>Web Design</li>
-                                            <li>Web Hosting</li>
-                                            <li>Software Development</li> -->
-                                        </ul>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>Client Meetings & Approach</span>
-                                    </div>
-                                    <div class="desc_content">
-                                        <!-- <p>I work together with my team to offer best services in:</p> -->
-                                        <ul class="services_list">
-                                            <li>Led meetings across global markets, providing tailored, results-oriented solutions based on client needs.</li>
-                                            <!-- <li>Web Design</li>
-                                            <li>Web Hosting</li>
-                                            <li>Software Development</li> -->
-                                        </ul>
-                                    </div>
-                                    <div class="content-title">
-                                        <span>Lead Generation & Prospecting (Apollo)</span>
-                                    </div>
-                                    <div class="desc_content">
-                                        <!-- <p>I work together with my team to offer best services in:</p> -->
-                                        <ul class="services_list">
-                                            <li>Used Apollo for targeted lead generation and email campaigns, increasing engagement and qualified leads.</li>
-                                            <!-- <li>Web Design</li>
-                                            <li>Web Hosting</li>
-                                            <li>Software Development</li> -->
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list">
-                            <a href="#myModal2" class="link" id="myBtn">About <i class="fa-solid fa-caret-down"></i></a>
-                            <div class="description_box about_box">
-                                <div class="link_description" id="myDescription">
-                                    <div class="content-title">
-                                        <span>About Me</span>
-                                    </div>
-                                    <div class="desc_content">
-                                        <p>I’m a Business Development and Project Management professional who builds strong client relationships across the US, UK, Europe, and Canada. 
-                                            I focus on clear communication and delivering solutions that meet client needs. I have experience leading client meetings and presentations in these regions, helping businesses grow and succeed.
-                                            Skilled in using tools like Apollo, Zoho CRM, and Asana, I manage prospects and projects efficiently while driving effective campaigns. I also support teams through
-                                            training and onboarding to ensure everyone is set up for success.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <div class="nav_button">
-                    <a href="assets/pdf/madhu_resume.pdf" class="btn"><i class="fa fa-download"></i> <span>Download CV</span></a>
-                </div>
-                <div class="mode">
-                    <div class="moon-sun" id="toggle-switch">
-                        <i class="fa fa-moon" id="moon"></i>
-                        <i class="fa fa-sun" id="sun"></i>
-                    </div>
-                </div>
-                <div class="nav_menu_btn">
-                    <i class="fa fa-bars" onclick="myMenuFunction()"></i>
-                </div>
-            </div>
-        </nav>
-        
-        <!-- ===== MAIN ===== -->
-        <main class="main">
-            <div class="row hero">
-                <div class="col col-1">
-                    <div class="social_icons">
-                         <!-- ===== Icon animated circle ===== -->
-                        <div class="icon_circle"></div>
+    <section class="service">
+      <div class="section__container service__container">
+        <p class="section__subtitle">What I have did!</p>
+        <h2 class="section__title"><span>My</span> Projects</h2>
+        <div class="my_project_grid">
+          <div class="service__card">
+            <!-- <i class="ri-edit-2-line"></i> -->
+            <h4>Digital Accessibility Compliance – BFSI Web Platform | Project Management Executive | 6 weeks</h4>
+            <p>Assisted in a 6-week project to achieve WCAG 2.2 AA compliance for a BFSI web platform. 
+              Supported coordination of cross-functional teams using Agile sprints, helped manage 
+              accessibility audits, tracked issue fixes, and assisted with user testing 
+              involving assistive technology. Contributed to preparing reports, documentation, 
+              and developer training. Project achieved 95%+ compliance, improved user satisfaction by 80%, 
+              and reduced accessibility-related support tickets by 30%.</p>
+            <a href="https://docs.google.com/document/d/1hhcecsGrma71ij3fzPU7qrOwRsv0rUnM/edit#heading=h.qjqj66mjhzf6" class="read__more">Read more...</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                        <!-- ===== Social Icons  ===== -->
-                        <a href="https://www.linkedin.com/in/madhumitha-r25/" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
-                            <i class="fa-brands fa-linkedin-in icon"></i>
-                        </a>
-                        <a href="mailto:mad525mitha@gmail.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
-                            <i class="fa-solid fa-envelope icon"></i>
-                        </a>
-                        <!-- <a href="https://github.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
-                            <i class="fa-brands fa-github icon"></i>
-                        </a> -->
-                        <!-- <a href="https://behance.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
-                            <i class="fa-brands fa-behance icon"></i>
-                        </a> -->
-                    </div>
-                    <!-- ===== HERO TEXT  ===== -->
-
-                    <div class="hero_box">
-                        <div class="hello">
-                            <p>Hello, I Am</p>
-                        </div>
-                        <div class="job">
-                            <span class="multiText"></span>
-                        </div>
-                        <div class="hero_description">
-                            <p>I’m a business development and project management professional with experience in BFSI, IT, accessibility, and education sector. I’m good at handling projects, working with tools like CRM, Apollo, and Asana, and making sure everything runs smoothly and meets business goals.</p>
-                        </div>
-                        <div class="hero_btn">
-                            <!-- <button class="btn_1">Hire Me</button> -->
-                            <a href="assets/pdf/madhumitha_resume.pdf"><button class="btn_1">Download CV</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-2">
-                    <div class="circle">
-                        <img src="assets/img/circle.png" alt="">
-                    </div>
-                    <div class="hero-image">
-                        <img src="assets/img/madhu2.png" alt="">
-                    </div>
-                    <!-- <div class="clients">
-                        <i class="fa-regular fa-user"></i>
-                        <div class="clients-content">
-                            <span>2k +</span>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div> -->
-                    <div class="experience">
-                        <i class="fa-regular fa-star"></i>
-                        <div class="xp-content">
-                            <span>1 +</span>
-                            <p>Year of experience</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
-
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        // Types JS
-        var typingEffect = new Typed(".multiText",{
-            strings: ["Business Executive","Project Management Executive","Business Development Associate"],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 80,
-            backDelay: 2000
-        })
-        // End of typed JS
-    </script>
-
-    <script src="assets/js/main.js"></script>
-</body>
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h2 class="section__title">Contact <span>Me!</span></h2>
+          <!-- <p class="section__subtitle">If you have any project in your mind</p> -->
+          <div class="footer__details">
+            <!-- <p>Digital Agency Network, 20</p> -->
+            <p>Taramani, Chennai</p>
+            <p>Tamil Nadu, India</p>
+          </div>
+          <div class="social__icons">
+            <!-- <a href="#" class="icon"><i class="ri-facebook-fill"></i></a> -->
+            <a href="mailto:mad525mitha@gmail.com" class="icon"><i class="ri-mail-line"></i></a>
+            <!-- <a href="#" class="icon"><i class="ri-twitter-fill"></i></a> -->
+            <a href="https://www.linkedin.com/in/madhumitha-r25/" target="_blank" class="icon"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+        <!-- <form class="footer__form">
+          <input type="text" placeholder="Your Name" />
+          <input type="text" placeholder="Your Email Address" />
+          <input type="text" placeholder="Your Phone Number" />
+          <textarea cols="30" rows="10" placeholder="Your Idea"></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form> -->
+      </div>
+    </footer>
+  </body>
 </html>
